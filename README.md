@@ -198,11 +198,16 @@ AI-Study-Mentor/
 └── docs/
     └── screenshots/
         ├── homepage.png
-        ├── explanation.png
-        ├── quiz.png
-        ├── study-plan.png
-        ├── timetable.png
-        └── resources.png
+        ├── explanation1.png
+        ├── explanation2..png
+        ├── quiz1.png
+        ├── quiz2.png
+        ├── study-plan1.png
+        ├── study-plan2.png
+        ├── timetable1.png
+        ├── timetable2.png
+        ├── resources1.png
+        └── resources2.png
         
 ## Future Scope
 
