@@ -10,7 +10,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 
 #### Home Screen
 
-![Home 1](docs/screenshots/homepage1.png)
+![Home 1](docs/screenshots/homepage.png)
 
 #### Home Screen with User Query
 
