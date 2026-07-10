@@ -4,9 +4,9 @@
 
 AI Study Mentor is an Agentic AI-based educational assistant that helps students with learning, revision, and exam preparation. The system uses multiple AI agents, where each agent performs a specialized task based on the student's request.
 
-## 📸 Application Screenshots
+## Application Screenshots
 
-### 🏠 Home Page
+### Home Page
 
 #### Home Screen
 
@@ -15,7 +15,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 #### Home Screen with User Query
 
 
-### 📖 Explanation Feature
+### Explanation Feature
 
 #### Example 1
 
@@ -26,7 +26,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 ![Explanation 2](docs/screenshots/explanation2.png)
 
 
-### ❓ Quiz Generator
+### Quiz Generator
 
 #### Example 1
 
@@ -37,7 +37,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 ![Quiz 2](docs/screenshots/quiz2.png)
 
 
-### 📅 Study Planner
+### Study Planner
 
 #### Example 1
 
@@ -48,7 +48,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 ![Study Plan 2](docs/screenshots/study-plan2.png)
 
 
-### ⏰ Timetable Generator
+### Timetable Generator
 
 #### Example 1
 
@@ -59,7 +59,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 ![Timetable 2](docs/screenshots/timetable2.png)
 
 
-### 📚 Learning Resources
+### Learning Resources
 
 #### Example 1
 
@@ -73,15 +73,15 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 
 ## Features
 
-- 📖 Explain study topics in simple language
-- 📝 Generate quizzes with answers
-- 📅 Create personalized study plans
-- ⏰ Generate study timetables
-- 📚 Recommend learning resources
-- 👋 Detect greetings and respond appropriately
-- 🎯 Intent Detection Agent routes requests to the correct AI agent
-- 📋 Copy response feature
-- ⏳ Loading animation for better user experience
+-  Explain study topics in simple language
+-  Generate quizzes with answers
+-  Create personalized study plans
+-  Generate study timetables
+-  Recommend learning resources
+-  Detect greetings and respond appropriately
+-  Intent Detection Agent routes requests to the correct AI agent
+-  Copy response feature
+-  Loading animation for better user experience
 
 ## AI Agents
 
@@ -117,7 +117,7 @@ AI Study Mentor is an Agentic AI-based educational assistant that helps students
 - CSS
 - JavaScript
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -213,7 +213,7 @@ AI-Study-Mentor/
 - Database integration
 - Chat history
 
-## 👩‍💻 Author
+## Author
 
 **Gayathri Bannuri**
 
