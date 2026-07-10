@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Study Mentor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤖 AI Study Mentor</h1>
+
+    <p class="subtitle">
+        Your Personal AI Learning Assistant
+    </p>
+
+    <!-- Feature Cards -->
+    <div class="features">
+
+        <div class="feature-card">
+            <div class="icon">📘</div>
+            <h3>Easy explanations</h3>
+            <p>Understand concepts with simple explanations.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📝</div>
+            <h3>Practice MCQ'S</h3>
+            <p>Practice with AI-generated MCQs.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📅</div>
+            <h3>Personalized Plans</h3>
+            <p>Create personalized learning plans.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">⏰</div>
+            <h3>Daily schedules</h3>
+            <p>Generate smart study schedules.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📚</div>
+            <h3>Books & Websites</h3>
+            <p>Find books, websites & learning materials.</p>
+        </div>
+
+    </div>
+
+    <!-- Input Card -->
+    <div class="input-card">
+
+        <h3 class="ask-title">💬 Ask your study question</h3>
+
+        <form method="POST" onsubmit="showLoading()">
+
+            <textarea
+                name="question"
+                placeholder="Type Here"
+                required></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                🚀 Get Help
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" style="display:none; text-align:center; margin-top:20px;">
+        <h3>🤖 AI Study Mentor is thinking...</h3>
+        <p>Please wait a few seconds...</p>
+    </div>
+
+    <!-- Output -->
+    {% if answer %}
+
+    <div class="answer">
+
+        <h2>📄 Mentor Response</h2>
+
+        <button onclick="copyAnswer()">📋 Copy Answer</button>
+
+        <div id="answerText">
+            {{ answer|safe }}
+        </div>
+
+    </div>
+
+    {% endif %}
+
+    <!-- Bottom Badges -->
+    <div class="footer-features">
+
+        <span>⚡ AI Powered</span>
+
+        <span>🛡 Reliable</span>
+
+        <span>🔒 Secure</span>
+
+    </div>
+
+</div>
+
+<script>
+
+function showLoading() {
+    document.getElementById("loading").style.display = "block";
+}
+
+function copyAnswer() {
+    let text = document.getElementById("answerText").innerText;
+    navigator.clipboard.writeText(text);
+    alert("Answer copied successfully!");
+}
+
+</script>
+
+</body>
+</html>
